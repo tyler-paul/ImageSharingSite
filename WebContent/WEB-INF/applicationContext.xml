@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+	<!-- Class Diagram Parser -->
+	<bean id="categoryDAO"
+		class="tylerpaul.site.daos.CategoryDAO">
+	</bean>
+	<bean id="commentDAO"
+		class="tylerpaul.site.daos.CommentDAO">
+	</bean>
+	<bean id="imageDAO"
+		class="tylerpaul.site.daos.ImageDAO">
+	</bean>
+	<bean id="userDAO"
+		class="tylerpaul.site.daos.UserDAO">
+	</bean>
+</beans>
